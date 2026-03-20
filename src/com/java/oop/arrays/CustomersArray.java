@@ -39,6 +39,11 @@ public class CustomersArray {
         return 0;
     }
     public static Customer getCustomerById(Customer[] customers, int id){
+        for(Customer customer : customers) {
+            if(customer.id == id) {
+                return customer;
+            }
+        }
         return null;
     }
     public static Customer highestAgedCustomer(Customer[] customers){
@@ -52,5 +57,13 @@ public class CustomersArray {
     }
     public static int customersWithAgeBetween(Customer[] customers, int minAge, int maxAge){
         return 0;
+    }
+    public static Customer[] getCustomersBelowAge(Customer[] customers, int age){
+        //100 customers out of which 25 below 20 years age
+        //1. how many are there count
+        //2. create an array of size 25
+        //3. iterat
+
+        return null;
     }
 }
