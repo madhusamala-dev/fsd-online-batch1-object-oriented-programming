@@ -6,6 +6,6 @@ public class X {
     public static void main(String[] args) {
         A a;
         a = new A();
-        System.out.println(a.value);
+     //   System.out.println(a.value);
     }
 }
